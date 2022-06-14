@@ -1,0 +1,17 @@
+:root {
+    --primary: #white;
+    --secundary: #blue;
+    --terciary: #green;
+}
+
+body {
+    background-color: greenyellow;
+    
+}
+
+.box {
+    width: 294px;
+    height: 654px;
+
+    background-color: var(--secundary);
+}
