@@ -1,5 +1,8 @@
-.big-box {
+body {
     background-color: greenyellow;
+}
+
+.big-box {
     width: 217vh;
     height: 95vh;
 }
@@ -9,9 +12,12 @@
     border-radius: 10px;
     width: 200px;
     height: 200px;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
+.icon {
+    width: 10px;
+    height: 10px;
     display: flex;
-    justify-content: center;
 }
