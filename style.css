@@ -1,17 +1,12 @@
-:root {
-    --primary: #white;
-    --secundary: #blue;
-    --terciary: #green;
-}
-
-body {
+.big-box {
     background-color: greenyellow;
-    
+    width: 217vh;
+    height: 95vh;
 }
 
-.box {
-    width: 294px;
-    height: 654px;
-
-    background-color: var(--secundary);
+.box-wrapper {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
 }
