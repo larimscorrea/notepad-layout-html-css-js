@@ -1,10 +1,19 @@
 body {
     background-color: greenyellow;
+    font-family: Verdana, sans-serif;
 }
 
 .big-box {
     width: 217vh;
     height: 95vh;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .box-wrapper {
@@ -16,8 +25,13 @@ body {
     margin-top: 20px;
 }
 
+.icon__box {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .icon {
     width: 10px;
     height: 10px;
-    display: flex;
+    margin: 5px;
 }
