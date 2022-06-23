@@ -1,6 +1,7 @@
 body {
     background-color: greenyellow;
     font-family: Verdana, sans-serif;
+
 }
 
 .big-box {
@@ -8,7 +9,7 @@ body {
     height: 95vh;
 }
 
-.lamp-item {
+/*.lamp-item {
     position: absolute;
     left: 0;
     right: 0;
@@ -53,6 +54,13 @@ body {
 .lamp-light-closed {
     background: none;
     
+}*/
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -61,6 +69,29 @@ body {
     color: black;
     display: flex;
     justify-content: center;
+}
+
+.subtitle {
+    
+    width: auto;
+    animation: subtitle 2s steps(30), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+}
+
+@keyframes subtitle {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+    
 }
 
 .box-wrapper {
