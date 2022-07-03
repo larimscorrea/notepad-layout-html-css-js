@@ -50,6 +50,9 @@ body {
 }
 .lamp-light-closed {
     background: none;
+    height: 0;
+    width: 0;
+    position: absolute;
 }
 
 .wrapper {

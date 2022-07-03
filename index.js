@@ -3,9 +3,8 @@ $('body').on('click', '.js-turnoff-btn', function() {
     $('.lamp-light').toggleClass('open');
 });
 
-
-$('body').on('click', '.js-turnoff-btn', function() {
-    $('.lamp-light-closed').reloadClass('closed');
+$('body').on('click', '.js-turnoff-btn-off', function() {
+    $('.lamp-light-closed').toggleClass('closed');
 });
 
 /**function closedLight() {
