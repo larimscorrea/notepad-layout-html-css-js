@@ -7,6 +7,8 @@ $('body').on('click', '.js-turnoff-btn-off', function() {
     $('.lamp-light-closed').toggleClass('closed');
 });
 
+cont $buttonSum = document.querySelector('.sum')
+
 /**function closedLight() {
     if()
 }*/
